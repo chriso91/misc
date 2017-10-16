@@ -1,0 +1,141 @@
+html, body{
+	background-image: url('whiteback.png');
+}
+
+#photo{
+	text-align: center;
+}
+
+#pic{
+	height: 89.55vh;
+}
+
+#picandtext{
+	width: 100vw;
+}
+
+#text{	
+	border-left-style: ridge;
+	padding: 0 30px 0 30px;
+}
+
+#top{
+	width: 95vw;
+	margin: 0 auto;
+}
+
+
+#top{
+	width: 95vw;
+	margin: 0 auto;
+}
+
+#menu{
+	font-size: 40px;
+	margin: 10px;
+}
+
+#menudiv{
+	text-align: right;
+}
+
+.menubut{
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Lobster';
+	margin: 10px;
+	color: black;
+}
+
+.menubut:hover{
+	text-decoration: none;
+	color: white;
+	cursor: hand;
+}
+
+#menudiv{
+	top: 5vh;
+}
+
+/* ************************************************************************** */
+
+#main{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 202% auto;
+}
+
+#main:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
+}
+
+#projects{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 202% auto;
+}
+
+#projects:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
+}
+
+#resume{
+	background-position: 0 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
+  	transition: background-position 0.5s ease-out 0s;
+  	background-size: 200.22% auto;
+}
+
+#resume:hover{
+	background-position: -99.99% 0;
+  	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
+}
+
+/* Bottom *********************************************** */
+
+
+#bottom{
+	width: 80vw;
+	margin: 0 auto;
+}
+
+#insta{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#insta:hover{
+	color: red;
+
+}
+
+#git{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#git:hover{
+	color: green;
+}
+
+#email{
+	font-size: 40px;
+	color: black;
+	text-align: center;
+}
+
+#email:hover{
+	color: blue;
+}
+
+#icons{
+	width: 30vw;
+	margin: 0 auto;
+	text-align: center;
+}
