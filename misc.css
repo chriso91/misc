@@ -7,11 +7,11 @@ html, body{
 }
 
 #pic{
-	height: 89.55vh;
+	width: 40vw;
 }
 
 #picandtext{
-	width: 100vw;
+	width: 99vw;
 }
 
 #text{	
@@ -25,17 +25,13 @@ html, body{
 }
 
 
-#top{
-	width: 95vw;
-	margin: 0 auto;
-}
-
 #menu{
 	font-size: 40px;
 	margin: 10px;
 }
 
 #menudiv{
+	top: 30px;
 	text-align: right;
 }
 
@@ -53,9 +49,6 @@ html, body{
 	cursor: hand;
 }
 
-#menudiv{
-	top: 5vh;
-}
 
 /* ************************************************************************** */
 
@@ -87,7 +80,7 @@ html, body{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
   	transition: background-position 0.5s ease-out 0s;
-  	background-size: 200.22% auto;
+  	background-size: 204% auto;
 }
 
 #resume:hover{
