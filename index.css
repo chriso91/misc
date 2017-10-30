@@ -64,26 +64,26 @@ html, body{
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, red 50%);
 }
 
-#projects{
+#resume{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
   	transition: background-position 0.5s ease-out 0s;
   	background-size: 202% auto;
 }
 
-#projects:hover{
+#resume:hover{
 	background-position: -99.99% 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, yellow 50%);
 }
 
-#resume{
+#aboutme{
 	background-position: 0 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
   	transition: background-position 0.5s ease-out 0s;
   	background-size: 204% auto;
 }
 
-#resume:hover{
+#aboutme:hover{
 	background-position: -99.99% 0;
   	background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, purple 50%);
 }
